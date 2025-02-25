@@ -47,7 +47,7 @@ public class BookControllerTest {
     private static final String INSERT_BOOKS_SCRIPT =
             "database/books/insert-books.sql";
     private static final String CLEAN_UP_SCRIPT =
-            "database/clean-up-data.sql";
+            "database/cleanup/clean-up-data.sql";
     @Autowired
     private ObjectMapper objectMapper;
     @Autowired

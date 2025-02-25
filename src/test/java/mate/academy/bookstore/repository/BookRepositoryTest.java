@@ -25,7 +25,7 @@ public class BookRepositoryTest {
     private static final String INSERT_BOOKS_CLASSPATH =
             "classpath:database/books/insert-books.sql";
     private static final String CLEAN_UP_CLASSPATH =
-            "classpath:database/clean-up-data.sql";
+            "classpath:database/cleanup/clean-up-data.sql";
     @Autowired
     private BookRepository bookRepository;
 

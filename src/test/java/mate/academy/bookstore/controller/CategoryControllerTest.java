@@ -44,7 +44,7 @@ public class CategoryControllerTest {
     private static final String INSERT_CATEGORIES_SCRIPT =
             "database/categories/insert-categories.sql";
     private static final String CLEAN_UP_SCRIPT =
-            "database/clean-up-data.sql";
+            "database/cleanup/clean-up-data.sql";
     @Autowired
     private ObjectMapper objectMapper;
     @Autowired
